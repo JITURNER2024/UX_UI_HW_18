@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: 400px;
+    
+   
+}
+
+.row: after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill-header {
+    text-align: center;
+    font-size: 75px;
+}
+
+.softskillheader {
+    text-align: center;
+}
+
+.technicalskillheader {
+    text-align: center;
+    color: black;
+}
+
+.toolheader {
+    text-align: center;
+}
+
+.project-header {
+    text-align: center;
+    font-size: 75px;
+}
+
+img {
+    border-radius: 8px;
+    border: 3px solid #555;
+  }
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-box {
+    flex: ;
+    margin-right: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-box {
+    flex: 2;
+    text-align: center;
+}
+
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #categoryGrid [
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        UNTAPPED Travel App
+        Prep 2 Satisfy Culinary App
+        U.S. Department of Education Responsive Web Design Effort
+        Thirst No More Corporation Responsive Web Design Effort
+        Project 3
+        Soft Skills
+        Empathy
+Leadership
+Dedication
+Public Speaking
+Detail-Oriented
+Creativity
+Team Work
+Confidence
+Time Management
+Technical Skills
+User Experience Interviewing
+Data Analysis
+User Need Identification
+Persona Creation
+Empathy Mapping
+Storyboarding
+Flow Diagrams
+Heuristic Evaluation
+Atomic Design
+UI Grids and Composition
+Typography
+Color Theory
+Interaction Design
+Iconography
+Tools
+Figma
+Miro
+Canva
+Adobe Illustrator
+HTML
+CSS
+GitHub
+VS Code
+JavaScript
+JQuery
+Bootstrap
+        
+        
+        ;
+    ]
+
+  }
+
